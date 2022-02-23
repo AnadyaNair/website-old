@@ -1,0 +1,36 @@
+.leftFixed {
+  background-color: #121212;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: -900px; */
+  width: 700px;
+}
+.aboutMe {
+  background-color: #171717;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 400px;
+  border-radius: 20px;
+  margin-left: -950px;
+  position: fixed;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tags {
+  text-align: center;
+  font-weight: 500;
+}
+
+.regardingMe {
+  font-size: 12px;
+}
