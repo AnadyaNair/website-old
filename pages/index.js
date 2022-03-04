@@ -4,10 +4,6 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import aboutStyles from "../styles/About.module.css";
 import workStyles from "../styles/Work.module.css";
-// import { FaceIcon, ImageIcon, SunIcon } from "@radix-ui/react-icons";
-// TODO:
-// Add social media contacts in left panel
-//
 
 export default function Home() {
   return (
