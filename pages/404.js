@@ -5,26 +5,34 @@ import Head from "next/head";
 export default function Custom404() {
   return (
     <div>
-        <Head>
+      <Head>
         <title>Anadya Nair | 404 Page</title>
         <meta name="description" content="Website/Portfolio." />
         <link rel="icon" href="/anadya.png" />
       </Head>
       <div className={errorStyles.main}>
         <div className={errorStyles.box}>
-          <h1>Uh oh, 404</h1>
-          <p>
-            The page you came looking for does not exist yet.
+          {/* <h1>404, page not found.</h1> */}
+          <h1>
+            ¯\_(ツ)_/¯
             <br />
-            Strange? Let's go back{" "}
+          </h1>
+          <h3>404, page not found.</h3>
+          {/* <p>
+            <br />
+            The page you came looking for, does not exist.
+            <br />
+            Check whether you typed the correct link.
+            <br />
+            You can return to the home page, there might
+            <br />
+            be navigations.
+          </p> */}
+          <button>
             <Link href="https://anadyanair.vercel.app">
-              <a>
-                <u>home</u>
-              </a>
+              <a>Return To Home Page</a>
             </Link>
-            , and wait for it to come...
-            <br />
-          </p>
+          </button>
         </div>
       </div>
     </div>

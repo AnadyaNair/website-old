@@ -14,18 +14,18 @@
 
 .footer {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
+  /* flex: 1; */
+  flex-direction: column;
+  /* padding: 2rem 0; */
+  margin-left: 150px;
   /* border-top: 1px solid #eaeaea; */
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
 .footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  /* text-decoration: underline; */
+  color: #27ae60;
 }
 
 /* .title a {

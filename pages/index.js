@@ -15,7 +15,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {/* <div className={aboutStyles.leftFixed}> */}
         <div className={aboutStyles.aboutMe}>
           <div className={aboutStyles.anadyaImage}>
             <Image
@@ -96,11 +95,10 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        {/* </div> */}
 
         <div className={workStyles.workSection}>
           <h2>Works</h2>
-          <div className={workStyles.showcase}>DIV DIV DIV DIV ALL DIVS</div>
+          <div className={workStyles.showcase}>Works soon to be added.</div>
         </div>
       </main>
       {/* <main className={styles.main}>
@@ -144,10 +142,41 @@ export default function Home() {
         </div>
       </main> */}
 
-      {/* Colophon */}
-
       <footer className={styles.footer}>
-        <a
+        <div className={styles.footerContent}>
+          <h2>Citation</h2>
+          <p>
+            This website is designed, developed and managed by Anadya Nair in
+            India.
+            <br /> <br />
+            It is designed using{" "}
+            <Link href="https://figma.com">
+              <a>Figma</a>
+            </Link>
+            , developed in{" "}
+            <Link href="https://code.visualstudio.com/">
+              <a>Visual Studio Code</a>
+            </Link>
+            , statically <br />
+            generated and rendered in{" "}
+            <Link href="https://nextjs.org">
+              <a>Next.js</a>
+            </Link>
+            , and deployed using{" "}
+            <Link href="https://vercel.com">
+              <a>Vercel</a>
+            </Link>
+            . <br /> <br />
+            Although copying the style of design is not copyrighted, all the
+            content is
+            <br /> copyrighted and the source code of this website is available
+            on{" "}
+            <Link href="https://github.com/AnadyaNair/website">
+              <a>GitHub</a>
+            </Link>
+            .
+          </p>
+          {/* <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -156,7 +185,8 @@ export default function Home() {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a>
+        </a> */}
+        </div>
       </footer>
     </div>
   );
