@@ -7,3 +7,4 @@ To do:
 - [ ] Add design section
 - [ ] Update README.md
 - [x] Add 404 page
+- [ ] Add meta tags for SEO
