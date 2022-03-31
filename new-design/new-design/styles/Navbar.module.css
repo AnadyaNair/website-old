@@ -1,0 +1,17 @@
+.navbar {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #f9f9f9;
+}
+.logo {
+  border-radius: 50%;
+}
+.text {
+  padding-left: 10px;
+}

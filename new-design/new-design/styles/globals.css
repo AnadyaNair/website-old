@@ -1,0 +1,32 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+html,
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Satoshi", sans-serif;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../asset/Satoshi-Black.otf");
+  src: url("../asset/Satoshi-BlackItalic.otf");
+  src: url("../asset/Satoshi-Bold.otf");
+  src: url("../asset/Satoshi-BoldItalic.otf");
+  src: url("../asset/Satoshi-Italic.otf");
+  src: url("../asset/Satoshi-Light.otf");
+  src: url("../asset/Satoshi-LightItalic.otf");
+  src: url("../asset/Satoshi-Medium.otf");
+  src: url("../asset/Satoshi-MediumItalic.otf");
+  src: url("../asset/Satoshi-Regular.otf");
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -8,3 +8,5 @@ To do:
 - [ ] Update README.md
 - [x] Add 404 page
 - [ ] Add meta tags for SEO
+- [ ] Make website responsive on different devices
+- [ ] Remove unnecessary comments
