@@ -1,0 +1,96 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  background-color: #f9f9f9;
+  position: fixed;
+  width: 100%;
+}
+
+.branding{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.branding img{
+  width: 30px;
+  border-radius: 50%;
+}
+.text {
+  padding-left: 10px;
+}
+
+.buttonNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttonNav ul {
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.buttonNav li {
+  list-style: none;
+}
+
+.spacingSpan {
+  width: 10px;
+}
+
+@media only screen and (max-width: 600px){
+/*Big smartphones [426px -> 600px]*/
+.navbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  /* background-color: black;
+   */
+  position: fixed;
+  width: 100%;
+  font-size: 14px;
+}
+
+.branding{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.branding img{
+  border-radius: 50%;
+}
+
+.buttonNav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.buttonNav ul {
+  text-align: center;
+  cursor: pointer;
+}
+
+.buttonNav li {
+  list-style: none;
+}
+
+.spacingSpan {
+  width: 10px;
+}
+}

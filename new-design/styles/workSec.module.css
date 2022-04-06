@@ -1,0 +1,50 @@
+.paragraphs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .spacingSpan {
+    width: 350px;
+  }
+
+.paragraphs a{
+    text-decoration: underline;
+}
+  
+  @media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/  
+    .paragraphs{
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+    }
+    
+    .spacingSpan {
+      width: 100px;
+    }
+    
+  }
+  @media only screen and (max-width: 600px){
+  /*Big smartphones [426px -> 600px]*/  
+  .paragraphs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .spacingSpan {
+    width: 50px;
+  }
+  }
+  
